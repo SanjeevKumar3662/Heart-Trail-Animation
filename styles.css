@@ -2,7 +2,8 @@ body {
     margin: 0;
     height: 100vh;
     background-color: black;
-    overflow: hidden; /* hides the scroll bar */
+    overflow: hidden;
+    /* hides the scroll bar */
 }
 
 span {
@@ -12,9 +13,11 @@ span {
     position: absolute;
     background-size: cover;
     pointer-events: none;
-    left: 50%;
-    top: 50%;
+    /*this was used to position the static heart to center(but only edge of the heart was centered)
+     left: 50%;
+    top: 50%; */
     transform: translate(-50%, -50%);
+    /* this will make the center of the heart in the middle */
     animation: animate 6s linear;
 }
 
